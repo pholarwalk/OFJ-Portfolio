@@ -1,15 +1,10 @@
 import React from 'react';
 import { Media } from 'reactstrap';
-import AOS from "aos";
-import 'aos/dist/aos.css';
+
 
 class Feature extends React.Component {
  
-  componentDidMount(){
-    AOS.init({
-      duration : 2000
-    })
-  }
+  
   render(){
   return (
     <div className='media-container'>
@@ -74,24 +69,7 @@ class Feature extends React.Component {
         </Media>
       </Media>
       
-      <div data-aos="zoom-in"> 
-      <h1>Tool Set</h1>
       
-      
-      <i class="fab fa-figma hov"></i>
-        <i class="fab fa-html5 hov"></i>
-        <i class="fab fa-css3-alt hov"></i>
-        <i class="fab fa-js-square hov"></i>
-        <i class="fab fa-bootstrap hov"></i>
-        <i class="fab fa-react hov"></i>
-        <i class="fab fa-npm hov"></i>
-        <i class="fab fa-node-js hov"></i>
-        <i className="fab fa-github hov"></i>
-        <i class="fab fa-python hov"></i>
-        <i class="fab fa-slack hov"></i>
-        <i class="fab fa-codepen hov"></i>
-         
-      </div>
     
       </div>
       
