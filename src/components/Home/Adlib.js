@@ -3,16 +3,16 @@ import {
   Carousel,
   CarouselItem,
   // CarouselControl,
-  CarouselIndicators,
+  // CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
-import Image1 from '../../images/pichtmlcss.png';
-import Image2 from '../../images/piccomputerdesk.jpg';
-import Image3 from '../../images/pichtmlcss3.jpg';
+import Image1 from '../../images/folastraight.jpeg';
+import Image2 from '../../images/folasmiling.jpeg';
+import Image3 from '../../images/folaunlooking.jpeg';
 const items = [
   {
     src: Image1,
-    caption: 'I`m Oluwasegun Folarin Joseph, A Front-End Developer, WELCOME TO MY PAGE!!! '
+    caption: 'I`m Oluwasegun Folarin Joseph, A Nigerian Front-End Developer.  '
   },
   {
     src: Image2,
@@ -70,9 +70,12 @@ class Adlib extends Component {
           onExited={this.onExited}
           key={item.src}
         >
+       
+      
           <img id='sliderimg' src={item.src} alt={item.altText} width='1024' height='500' />
-          <div className='TextCont'>
+          <div className='TextCont' >
           <CarouselCaption captionHeader={item.caption} />
+          
           </div>
         </CarouselItem>
         
@@ -85,7 +88,7 @@ class Adlib extends Component {
         next={this.next}
         previous={this.previous}
       >
-        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
+        {/* <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} /> */}
         {slides}
         {/* <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} /> */}
         {/* <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} /> */}
