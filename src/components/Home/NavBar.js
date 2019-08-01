@@ -49,7 +49,7 @@ class NavBar extends React.Component {
                 <NavLink href="#project">Projects</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Resume</NavLink>
+                <NavLink href="https://docs.google.com/document/d/1ekRts3kiNkOzMxbKK-idJi9VwsJbHUjs1uNeCQvORsQ/edit?usp=sharing">Resume</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#contact">Contact</NavLink>

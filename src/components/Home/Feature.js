@@ -20,8 +20,8 @@ class Feature extends React.Component {
       <div data-aos="fade-left" >
       <h2>Experienced</h2>
         
-        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-        </div>
+      I have got Positive Attitude, a can do mindset and Quick Learning Ability, Deep and Broad Technical Experience with High-End User Focus.
+</div>
       </Media>
     </Media>
     <Media>
@@ -30,8 +30,7 @@ class Feature extends React.Component {
         <div data-aos="fade-right" >
         <h2>Ready to Work</h2>
           
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-          </div>
+        Im a ready to work based onQualification / Certification, Computer Programming / Coding skill, Logical Thinking & Problem-solving, i possess the attribute Patience being  Attentive to Detail, also Business-savvy.n</div>
         </Media>
 
         <Media right href="#">
@@ -50,7 +49,8 @@ class Feature extends React.Component {
       <div data-aos="fade-left" >
       <h2>Team Player</h2>
         
-        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      Im a great teamplayer, Active listener that shows Genuine Commitment,who doesnt stay in the shadows,pretty much flexible,100% Reliable and responsible, ready to solve problem or help a colleague, show full support and respect others, and i recognise when im wrong and take to correction for progress, to crown it all i keep the team informed.
+
         </div>
       </Media>
     </Media>
@@ -59,8 +59,8 @@ class Feature extends React.Component {
         <div data-aos="fade-left" >
         <h2>Trusted Remote Developer</h2>
           
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-          </div>
+        Im a focused developer with apt time management abilities, with great Communication skill also Collaborating with other colleagues, im guaranteed to be a self-starter and independent worker,where i work with little direction but produces impactful work.
+        </div>
         </Media>
         <Media right href="#">
         <div data-aos="fade-right" >

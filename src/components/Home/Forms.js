@@ -5,7 +5,7 @@ class Forms extends React.Component {
   render() {
     return (
       <Form>
-      <h2 id='contact'>Contact Form</h2>
+      <h4 id='contact'>Contact Form</h4>
       <FormGroup row>
           <Label for="examplePassword" sm={2}>Name</Label>
           <Col sm={10}>
