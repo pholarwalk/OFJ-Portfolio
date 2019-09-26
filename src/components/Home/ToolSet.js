@@ -12,10 +12,11 @@ import React from 'react';
 class ToolSet extends React.Component {
   render() {
     return (
+      
         <div className="media-container" data-aos="zoom-in"> 
         <h1>Tool Set</h1>
         
-        
+        <div className="toolset">
         <i class="fab fa-figma hov"></i>
           <i class="fab fa-html5 hov"></i>
           <i class="fab fa-css3-alt hov"></i>
@@ -25,10 +26,12 @@ class ToolSet extends React.Component {
           <i class="fab fa-npm hov"></i>
           <i class="fab fa-node-js hov"></i>
           <i className="fab fa-github hov"></i>
+          <div className="toolset2">
           <i class="fab fa-python hov"></i>
           <i class="fab fa-slack hov"></i>
           <i class="fab fa-codepen hov"></i>
-           
+          </div>
+        </div>
         </div>
     );
   }

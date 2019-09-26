@@ -5,8 +5,7 @@ import React from 'react';
 // components
 import NavBar from "./Home/NavBar";
 import Adlib from "./Home/Adlib";
-import Feature from "./Home/Feature";
-import Service from "./Home/Service";
+// import Feature from "./Home/Feature";
 import Footer from "./Home/Footer";
 import ToolSet from "./Home/ToolSet";
 import AOS from "aos";
@@ -15,6 +14,7 @@ import 'aos/dist/aos.css';
 
 // styles
 import '../styles/App.css';
+import Project from './Home/Project';
 
 
 class App extends React.Component {
@@ -28,9 +28,10 @@ class App extends React.Component {
       <div className="general-container">
         <NavBar />
         <Adlib />
-        <Feature />
+        <Project />
+        {/* <Feature /> */}
         <ToolSet />
-        <Service />
+        
         
         <Footer />
       </div>
