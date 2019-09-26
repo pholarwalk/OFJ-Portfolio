@@ -32,37 +32,19 @@
   font-size: 20px;
   font-weight: 600;
 }
-.TextCont{
-  padding: 1% !important;
-  position: relative;
-  /* height: 50%; */
-  left: 60%;
-  width: 40%;
-  font-size: 25px;
-  
-}
-.carousel-caption{
-  position: relative !important;
-  top: -400px;
-  height: 100% !important;
-  width: 75% !important;
-  color: rgb(160, 156, 156);
-}
-.carousel-item{
-  height: 500px;
-  
-}
-.carousel-item > img { 
-  width: 62%;
-  margin: 0px 0px 0px 30px;
-  border-radius: 20px;
-}
 
+
+.contactbtn{
+  margin-top:50px;
+}
 .media-container{
   width:80%;
   margin: auto;
 }
-
+.adlib-container{
+  width:100%;
+  margin: auto;
+}
 h1{
   text-align: center;
   margin:30px;
@@ -77,22 +59,22 @@ h5, .footer-text{
   text-align: center;
   color: rgb(160, 156, 156);
 }
-#sliderimg{
-  filter: brightness(0.6);
-}
+
 #img1{
   filter: brightness(0.6);
   border-radius: 10px;
+  height:500px;
 }
 .media{
   margin:30px;
 }
-
+.text-experience{
+  font-size: 18px;
+}
 .imgproject{
     filter: brightness(0.6);
     border-radius: 10px;
-   
-    
+    margin-left:20px;  
 }
 
 .footies{
@@ -104,7 +86,12 @@ h5, .footer-text{
   background: rgb(66, 64, 64);
   color: #fff;
 }
-
+p{
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 10px;
+  color:#fff;
+}
 .media-body{
   margin:50px;
 }
@@ -123,7 +110,12 @@ h5, .footer-text{
   position: relative;
   left: 70px;
 }
-
+.toolset{
+  display:flex;
+}
+.toolset2{
+  margin-top: 50px;
+}
 .card-deck{
   width: 90%;
   margin: auto;  
@@ -131,6 +123,7 @@ h5, .footer-text{
 
 .wholediv {
   padding: 35px 0px;
+  border:10px;
 }
 
 a.nav-link, label{
@@ -146,17 +139,28 @@ a.nav-link, label{
   padding:20px;
   color: rgb(160, 156, 156);
   font-size: 50px;
+  margin-top: 30px;
   
 }
-Form{
+.hov2{
+  font-size: 50px;
+  padding:20px;
   color: rgb(160, 156, 156);
 }
 .footer-logo{
-margin: 60px 0px 10px 120px;
 filter: brightness(0.8);
 }
+.button-hire{
+  color: rgb(160, 156, 156);
+  font-weight:600;
+  font-size:18px;
+  padding-right:10px;
+}
+.button-hire:hover{
+  color: rgb(218, 216, 216);
+  
+}
 
- 
 #home {
     
   animation-name: fade;
@@ -231,157 +235,134 @@ filter: brightness(0.8);
 
 
 /* 
-media query begins here */
-@media(max-width:1200px){
-  .serviceImg{
-    width:100px;
+media query begins here  */
+@media(max-width:1024px){
+  .img-teamwork, .img-remote{
+    width:400px;
   }
-  .pricing-right{
-  padding-right: 50px;
+  .text-remote{
+margin-top: -50px;
   }
+  .toolset{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .toolset2{
+    margin-left:270px;
+  }
+.imgproject{
+  width:200px;
+}
+.hov2{
+  font-size: 30px;
+  padding:20px;
+  color: rgb(160, 156, 156);
+}
 }
 
-@media(max-width:900px){
-  .B-jumbotron, .B-jumbotron1{
-    background:#e0e6ee;
-  }
-  .housing{
-    display:grid;
-  }
-  .linkkk{
-    position: relative;
-    left:170px;
-  }
-  .locawifi{
-    position:relative;
-    bottom:-12px;
-  }
-  .features{
-    width:620px;
-    font-size: 0.5px;
-  }
-  .features:hover{
-    font-size:1rem;
-    opacity:3;
-    transition: 2s;
-  }
-  .Service-all{
- display:grid;
 
+@media(max-width:768px){
+  .img-teamwork, .img-remote, .img-experience, .img-ready{
+    display:none;
   }
-  .wholediv{
-    width:700px;
+ 
+  .toolset{
+    display:flex;
+    flex-wrap: wrap;
   }
-  .serviceImg{
-    width:100px;
+  .toolset2{
+    margin-left:20px;
   }
+  .imgproject, p{
+    width:150px;
+    margin-left:-10px;
+  }
+  h5{
+    font-size: 14px;
+  }
+  .hov2{
+    font-size: 30px;
+    padding:10px;
+    color: rgb(160, 156, 156);
+  }
+  .button-hire{
+    font-size: 15px;
+    margin-left:-10px;
+  }
+}
+  
 
-  #price{
-    position: relative;
-    left:20px;
-    padding: -20px;
-    top:-8px;
+@media(max-width:425px){
+  .logo{
+    margin-left: 110px;
+  }
+  #sliderimg{
+    width:340px;
+    height:200px;
+  }
+  .carousel-item{
+    height:200px;
+  }
+  .TextCont{
+    display: none;
+  }
+ 
+  .imgproject{
+    margin-left:50px;
+    width:250px;
+   } 
+   h5{
+    font-size: 15px;
+  }
+  p{
+    margin-left:100px;
+  }
+}
+@media(max-width:375px){
+  .imgproject{
+    margin-left:30px;
     
-  }
-  .pricing{
-    position: relative;
-    left:-40px;
-    
-  }
-  .client1{
-    position: relative;
-    top:55px;
-  }
- .josla-img{
-   position: relative;
-   left:-20px;
- }
-  #client{
-    position: relative;
-    top:52px;
-    padding-bottom: 30px;
-
-  }
- .price-client-container{
-   position: relative;
-   padding:-20px;
- }
- .clients-header{
-   position: relative;
-   top:-20px;
- }
-  .grid-container{
- position: relative;
- top:15px;
-  }
- .footies{
-   position: relative;
-   top:10px;
- }.josla,  .powered{
-   position: relative;
-    right:30px;
- }
-
+   }
+   p{
+    margin-left:50px;
+    width:200px;
+   }
+   .text-experience{
+    width:280px;
+    font-size: 15px;
+    text-align: center;
+    margin-left:-30px;
+   }
+   h2{
+     margin-right: 20px;
+   }
 }
-@media(max-width:600px){
-  .housing{
-  width:420px;
+@media(max-width:320px){
+  .logo{
+    margin-left: 80px;
   }
-  .locawifi{
-    position: relative;
-    left:30px;
-
+  .imgproject{
+    margin-left:1px;
+   }
+   p{
+    margin-left:25px;
+   }
+   #sliderimg{
+    width:250px;
+    height:200px;
   }
-  .adlib-left{
-    position: relative;
-    left:10px;
+  .media-container{
+    width: 100%;
+   }
+ .text-experience{
+        width:280px;
+        font-size: 15px;
+        text-align: center;
+        margin-left:-50px;
   }
-  .linkkk{
-    position: relative;
-    right:10px;
-    font-size: 18px;
-  }
-  .features{
-    width:180px;
-  }
-  .Service-all{
-width:420px;
-  }
-  .features{
-    display:grid;
-  }
-  .wholediv{
- width:200px;
-  }
-  .pricing{
-    width:350px;
-  }
-  .pricing-right-text{
-    position: relative;
-    left:-25px;
-    font-size: 12px;
-  }
-  .grid-container{
-    position: relative;
-    right:10px;
-  }
-  .lead{
-    position: relative;
-    right:10px;
-  }
-}
-
-@media(max-width:350px){
-  .features{
-    width:180px;
+  h2{
+    margin-right: 50px;
   }
   
 }
-
-
-@keyframes App-logo-spin {
-
-  to {
-    transform: scale(1.2);
-  }
-}
+ 
